@@ -1,0 +1,52 @@
+﻿/*
+Assignment 3
+Problem 2
+
+Name: Alaa Labban
+Date: 20/2/2025
+
+File name: Csstxt.css
+Supporting files: news.html, image1.gif, image2.gif, image3.gif, image4.gif, image5.gif, image6.gif, ribbon.gif
+*/
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    color: black;
+    background-color: rgb(204, 204, 153);
+    margin: 0;
+}
+
+#ribbon {
+    float: left;
+    border-right: 7px double black;
+}
+
+#pageContent {
+    width: 50em;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+    text-align: center;
+    padding: 0.2em;
+    color: rgb(204, 204, 153);
+    background-color: rgb(102, 102, 204);
+    
+}
+
+address {
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(102, 102, 204);
+    padding: 0.5em;
+    border-top: 0.1em solid rgb(102, 102, 204);
+}
+

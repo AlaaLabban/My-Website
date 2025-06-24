@@ -1,0 +1,267 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #C9C9C7;
+}
+
+/* Header and Footer Styling */
+header, footer {
+  background-color: #191E24;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Flexbox header layout */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1200px;
+  
+  margin: auto ;
+  padding:  0px;
+  
+}
+
+/* Logo */
+.site-logo {
+  height: 80px;
+  padding:0px;
+  margin:0px;
+  border: 0px;
+  margin-right: 250px;
+  
+}
+
+/* Header text */
+header h1 {
+  font-size: 24px;
+  margin: 0;
+  color: C9C9C7;
+  
+  
+}
+/* Navigation Styling */
+nav {
+  background-color: black;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Content Area */
+main, .content {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Thumbnails (for gallery later) */
+.thumbnail {
+  width: 100px;
+  height: auto;
+  margin: 5px;
+  display: inline-block;
+}
+
+/* Error styling (for form later) */
+.error {
+  color: red;
+  font-size: 14px;
+}
+footer {
+  background-color: #191E24;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.validators {
+  margin-top: 10px;
+}
+.validators img {
+  margin: 0 5px;
+}
+/* ==== GALLERY STYLING ==== */
+#gallery {
+  text-align: center;
+}
+#main-image img {
+  border: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+#thumbnails {
+  margin-bottom: 10px;
+}
+.thumbnail {
+  width: 100px;
+  margin: 5px;
+  cursor: pointer;
+  border: 10px solid transparent;
+}
+.thumbnail:hover {
+  border-color: #C9C9C7;
+}
+#controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+}
+.content h3{
+   
+  font-size: 20px;
+  margin: 0;
+  color: black;
+  align-content: center;
+  text-align: center;
+
+}
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.schedule-table caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.schedule-table th {
+  background-color: #f2f2f2;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: f2f2f2;
+}
+
+.schedule-table caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 2px solid #333;
+  padding: 12px;
+  text-align: center;
+}
+
+.schedule-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.assignment-card {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-card h3 {
+  margin-top: 0;
+  color: #222;
+  font-size: 1.4em;
+}
+
+.assignment-card ul {
+  padding-left: 20px;
+}
+
+.assignment-card li a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.assignment-card li a:hover {
+  text-decoration: underline;
+}
+.assignment-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.assignment-card li {
+  margin-bottom: 8px;
+}
+
+.assignment-card li a {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #0077cc;
+  transition: background-color 0.2s ease;
+}
+
+.assignment-card li a:hover {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+.assignment-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0;
+  text-align: center; /* Center the links */
+}
+
+.assignment-card li {
+  display: inline-block; /* Stack them inline */
+  margin: 6px 8px;
+}
+
+.assignment-card li a {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.assignment-card li a:hover {
+  background-color: #0077cc;
+  color: #fff;
+}
